@@ -1,0 +1,9 @@
+serverAddr = "xxx.xxx.xxx.xxx"
+serverPort = 7000
+
+[[proxies]]
+name = "test-udp"
+type = "udp"
+localIP = "127.0.0.1"
+localPort = 8211
+remotePort = 8211
